@@ -1,0 +1,41 @@
+ body {background-image: linear-gradient(#FF0699B9, #FFE4C6C5, );}
+         h1 {text-align: center;}
+         h2 {text-align: center;}
+         h3 {text-align: center;}
+         p {text-align: center;}
+         li {text-align: center;}
+         
+         p{font-family:Copperplate Gothic Light  }
+         
+         
+         pictures {
+        display: block;
+        margin-center: auto;
+        margin-right: auto;
+           }
+
+           @media screen and (max-width: 768px){
+               #main-content,
+               sidebar{
+                   float: none;
+                   width: 100%
+               }
+           } 
+           
+            @media screen and (max-width: 768px){
+             nav li,
+             nav a{
+                 display: block
+             }
+               }
+           
+               #main-content{
+                   float: none;
+                   width: 66%;
+                  margin-right: 1%
+               }  
+               
+               #sidebar{
+                   float: none;
+                   width: 33%
+               }
